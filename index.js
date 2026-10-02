@@ -32,19 +32,19 @@ function logTicketPrice(attendee){
 // Utility: updates the ticket type of the
 //          attendee
 // Params: ticketType (string)
-function updateTicketType(ticketType){
+function updateTicketType(attendance, ticketType){
   attendee["ticketType"] = ticketType;
 }
 
 // Utility: updates the ticket price of the
 //          attendee
 // Params: ticketPrice (number)
-function updateTicketPrice(ticketPrice){
+function updateTicketPrice(attendee, ticketPrice){
   attendee['ticketPrice'] = ticketPrice;
 }
 
 // Utility: removes a property from the object
-function removeEventProperty(){
+function removeEventProperty(attendee){
   delete attendee.event;
 }
 
