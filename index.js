@@ -40,12 +40,12 @@ function updateTicketType(ticketType){
 //          attendee
 // Params: ticketPrice (number)
 function updateTicketPrice(ticketPrice){
-  attendee["ticketPrice"] = ticketPrice;
+  attendee['ticketPrice'] = ticketPrice;
 }
 
 // Utility: removes a property from the object
 function removeEventProperty(){
-  delete attendee["event"];
+  delete attendee.event;
 }
 
 // Utility: adds a property to the attendee object
