@@ -32,7 +32,7 @@ function logTicketPrice(attendee){
 // Utility: updates the ticket type of the
 //          attendee
 // Params: ticketType (string)
-function updateTicketType(attendance, ticketType){
+function updateTicketType(attendee, ticketType){
   attendee["ticketType"] = ticketType;
 }
 
