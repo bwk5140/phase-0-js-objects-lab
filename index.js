@@ -45,8 +45,8 @@ function updateTicketPrice(ticketPrice){
 
 // Utility: removes a property from the object
 // Params: event (string)
-function removeEventProperty(event){
-  delete attendee[event];
+function removeEventProperty(_event){
+  delete attendee[_event];
 }
 
 // Utility: adds a property to the attendee object
